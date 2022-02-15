@@ -1,6 +1,5 @@
 def format_duration(seconds):
     #your code here
-    import math
     import datetime
     sec = seconds
     second_time = str(datetime.timedelta(seconds=sec))
